@@ -24,7 +24,7 @@
             position: relative;
         }
 
-        /* Arka Plan Dalga Efekti */
+        /* Arka Plan Güneş Tutulması ve Dalga Canvas'ı */
         #bgCanvas {
             position: fixed;
             top: 0;
@@ -32,6 +32,7 @@
             width: 100%;
             height: 100%;
             z-index: -2;
+            background: radial-gradient(circle at center, #0a0503 0%, #020202 100%);
         }
 
         /* Buzlu Cam Filtre Katmanı */
@@ -41,9 +42,9 @@
             left: 0;
             width: 100%;
             height: 100%;
-            backdrop-filter: blur(30px);
-            -webkit-backdrop-filter: blur(30px);
-            background: rgba(3, 3, 3, 0.45);
+            backdrop-filter: blur(35px);
+            -webkit-backdrop-filter: blur(35px);
+            background: rgba(3, 3, 3, 0.4);
             z-index: -1;
             pointer-events: none;
         }
@@ -54,14 +55,14 @@
             z-index: 1;
             width: 90%;
             max-width: 680px;
-            background: rgba(255, 255, 255, 0.025);
-            backdrop-filter: blur(18px);
-            -webkit-backdrop-filter: blur(18px);
+            background: rgba(255, 255, 255, 0.022);
+            backdrop-filter: blur(24px);
+            -webkit-backdrop-filter: blur(24px);
             border: 1px solid rgba(255, 255, 255, 0.08);
-            border-radius: 24px;
-            padding: 45px 40px;
-            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.7), inset 0 1px 0 rgba(255, 255, 255, 0.12);
-            margin: 40px 0;
+            border-radius: 28px;
+            padding: 50px 45px;
+            box-shadow: 0 40px 80px rgba(0, 0, 0, 0.8), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+            margin: 50px 0;
         }
 
         /* Geri Sayım Sayacı */
@@ -74,19 +75,19 @@
 
         .countdown-label {
             font-size: 0.8rem;
-            letter-spacing: 3px;
+            letter-spacing: 4px;
             text-transform: uppercase;
-            color: rgba(255, 255, 255, 0.45);
+            color: rgba(255, 255, 255, 0.55);
             margin-bottom: 12px;
         }
 
         .countdown-timer {
             font-family: 'Cormorant Garamond', serif;
-            font-size: 2.8rem;
+            font-size: 3rem;
             font-weight: 600;
             color: #ffffff;
             letter-spacing: 2px;
-            text-shadow: 0 2px 15px rgba(255, 90, 30, 0.4);
+            text-shadow: 0 0 20px rgba(255, 255, 255, 0.6), 0 0 10px rgba(255, 100, 50, 0.5);
         }
 
         /* Başlık */
@@ -98,20 +99,22 @@
         .event-brand {
             font-size: 0.85rem;
             text-transform: uppercase;
-            letter-spacing: 5px;
-            color: #ff8c66;
+            letter-spacing: 6px;
+            color: #ff9566;
             font-weight: 600;
             margin-bottom: 8px;
+            text-shadow: 0 0 10px rgba(255, 149, 102, 0.4);
         }
 
         .event-title {
             font-family: 'Cormorant Garamond', serif;
-            font-size: 2.1rem;
+            font-size: 2.2rem;
             font-weight: 600;
-            background: linear-gradient(135deg, #ffffff 35%, #ff9566 100%);
+            background: linear-gradient(135deg, #ffffff 40%, #ff9566 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             line-height: 1.25;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
         }
 
         /* İçerik / Akış Listesi (Ortalanmış ve Çizgisiz) */
@@ -126,33 +129,38 @@
             align-items: center;
             text-align: center;
             margin-bottom: 14px;
-            padding: 12px 18px;
+            padding: 14px 20px;
             background: rgba(255, 255, 255, 0.015);
-            border-radius: 12px;
-            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            border-radius: 14px;
+            transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+            border: 1px solid rgba(255, 255, 255, 0.03);
         }
 
         .schedule-item:hover {
             background: rgba(255, 255, 255, 0.04);
-            transform: translateY(-2px);
+            transform: translateY(-3px);
+            border-color: rgba(255, 100, 50, 0.2);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
         }
 
         .schedule-time {
-            font-size: 0.8rem;
+            font-size: 0.82rem;
             font-weight: 600;
-            color: #ff8c66;
-            margin-bottom: 4px;
-            letter-spacing: 1px;
+            color: #ff9566;
+            margin-bottom: 5px;
+            letter-spacing: 1.2px;
         }
 
         .schedule-desc {
-            font-size: 0.95rem;
-            color: rgba(255, 255, 255, 0.82);
+            font-size: 0.96rem;
+            color: rgba(255, 255, 255, 0.85);
             font-weight: 300;
+            line-height: 1.4;
         }
 
         /* Luma Butonu */
         .cta-container {
+            margin-bottom: 25px;
             text-align: center;
         }
 
@@ -165,38 +173,54 @@
             text-decoration: none;
             font-weight: 600;
             font-size: 0.95rem;
-            letter-spacing: 1.5px;
+            letter-spacing: 1.8px;
             text-transform: uppercase;
-            border-radius: 12px;
-            box-shadow: 0 10px 30px rgba(255, 69, 0, 0.35);
-            transition: all 0.3s ease;
+            border-radius: 14px;
+            box-shadow: 0 12px 35px rgba(255, 69, 0, 0.4);
+            transition: all 0.35s ease;
             border: 1px solid rgba(255, 255, 255, 0.25);
         }
 
         .luma-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 15px 35px rgba(255, 69, 0, 0.55);
+            transform: translateY(-3px);
+            box-shadow: 0 16px 45px rgba(255, 69, 0, 0.6);
             background: linear-gradient(135deg, #ff5511 0%, #ff7b11 100%);
+        }
+
+        /* SoundCloud Oynatıcı Alanı */
+        .soundcloud-container {
+            border-radius: 14px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            background: rgba(0, 0, 0, 0.4);
+            box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        .soundcloud-container iframe {
+            width: 100%;
+            height: 120px;
+            border: none;
+            display: block;
         }
 
         /* Responsive Uyum */
         @media (max-width: 600px) {
             .container {
-                padding: 30px 20px;
+                padding: 35px 20px;
                 width: 94%;
             }
             .countdown-timer {
-                font-size: 2.2rem;
+                font-size: 2.3rem;
             }
             .event-title {
-                font-size: 1.6rem;
+                font-size: 1.7rem;
             }
         }
     </style>
 </head>
 <body>
 
-    <!-- Arka Plan Akışkan Dalga Canvas'ı -->
+    <!-- Arka Plan Güneş Tutulması ve Dalga Canvas'ı -->
     <canvas id="bgCanvas"></canvas>
     <!-- Buzlu Cam Katmanı -->
     <div class="global-glass-overlay"></div>
@@ -243,6 +267,11 @@
         <div class="cta-container">
             <a href="https://lu.ma" target="_blank" class="luma-btn">Luma'ya Katıl</a>
         </div>
+
+        <!-- SoundCloud Çalma Listesi -->
+        <div class="soundcloud-container">
+            <iframe scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/abdbali/sets/tropospheric-propagation&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+        </div>
     </div>
 
     <script>
@@ -273,7 +302,7 @@
         setInterval(updateCountdown, 1000);
         updateCountdown();
 
-        // Kızıl-Turuncu Akışkan Dalga Animasyonu
+        // Doğal Güneş Tutulması ve Kızıl-Turuncu/Beyaz Korona Dalga Animasyonu
         const canvas = document.getElementById('bgCanvas');
         const ctx = canvas.getContext('2d');
 
@@ -285,21 +314,25 @@
         resizeCanvas();
 
         let step = 0;
-        function drawWaves() {
+        function drawEclipse() {
             ctx.fillStyle = '#030303';
             ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            const centerX = canvas.width / 2;
+            const centerY = canvas.height / 2;
 
             ctx.save();
             ctx.globalCompositeOperation = 'screen';
 
-            for (let i = 0; i < 4; i++) {
+            // Beyaz ve Kızıl-Turuncu Korona Işınları / Dalgaları
+            for (let i = 0; i < 5; i++) {
                 ctx.beginPath();
-                ctx.moveTo(0, canvas.height / 2);
+                ctx.moveTo(0, centerY);
 
-                for (let x = 0; x < canvas.width; x += 15) {
-                    let y = canvas.height / 2 + 
-                            Math.sin((x * 0.0025) + (step * 0.015) + i) * 140 +
-                            Math.cos((x * 0.004) - (step * 0.01)) * 90;
+                for (let x = 0; x < canvas.width; x += 12) {
+                    let y = centerY + 
+                            Math.sin((x * 0.003) + (step * 0.02) + i) * (120 + i * 25) +
+                            Math.cos((x * 0.005) - (step * 0.015)) * (80 + i * 15);
                     ctx.lineTo(x, y);
                 }
 
@@ -308,23 +341,40 @@
                 ctx.closePath();
 
                 let gradient = ctx.createLinearGradient(0, 0, 0, canvas.height);
-                if (i % 2 === 0) {
-                    gradient.addColorStop(0, 'rgba(255, 35, 0, 0.35)');
+                if (i === 0) {
+                    // Beyaz Taç / Korona Efekti
+                    gradient.addColorStop(0, 'rgba(255, 255, 255, 0.22)');
+                    gradient.addColorStop(0.5, 'rgba(255, 200, 150, 0.1)');
+                    gradient.addColorStop(1, 'rgba(0, 0, 0, 0)');
+                } else if (i % 2 === 0) {
+                    gradient.addColorStop(0, 'rgba(255, 60, 10, 0.3)');
                     gradient.addColorStop(1, 'rgba(0, 0, 0, 0)');
                 } else {
-                    gradient.addColorStop(0, 'rgba(255, 110, 0, 0.3)');
+                    gradient.addColorStop(0, 'rgba(255, 130, 20, 0.25)');
                     gradient.addColorStop(1, 'rgba(0, 0, 0, 0)');
                 }
                 ctx.fillStyle = gradient;
                 ctx.fill();
             }
 
+            // Merkezdeki Güneş Tutulması Efekti (Işıma)
+            let sunGlow = ctx.createRadialGradient(centerX, centerY, 20, centerX, centerY, 350);
+            sunGlow.addColorStop(0, 'rgba(255, 255, 255, 0.25)');
+            sunGlow.addColorStop(0.2, 'rgba(255, 100, 30, 0.2)');
+            sunGlow.addColorStop(0.5, 'rgba(255, 40, 0, 0.08)');
+            sunGlow.addColorStop(1, 'rgba(0, 0, 0, 0)');
+
+            ctx.fillStyle = sunGlow;
+            ctx.beginPath();
+            ctx.arc(centerX, centerY, 350, 0, Math.PI * 2);
+            ctx.fill();
+
             ctx.restore();
-            step += 0.7;
-            requestAnimationFrame(drawWaves);
+            step += 0.6;
+            requestAnimationFrame(drawEclipse);
         }
 
-        drawWaves();
+        drawEclipse();
     </script>
 </body>
 </html>
