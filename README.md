@@ -52,13 +52,11 @@ Projede aktif görev alacak operatörlerin, konumlarının ve kullanacakları an
 
 | Çağrı İşareti (Callsign) | Operatör Adı | İstasyon Konumu / Bölgesi | Ana Ekipman & Anten |
 | :--- | :--- | :--- | :--- |
-| **TA3AAA** | Ahmet Yılmaz | Bursa / Uludağ Zirve (KN40nc) | Yaesu FT-2980 + 5 Eleman VHF Yagi |
-| **TA1BBB** | Mehmet Çelik | İstanbul / Çamlıca Tepesi (KN41aa) | Icom IC-2730 + Diamond X-300 Omni |
-| **TA2CCC** | Caner Demir | İstanbul / Aydos Tepesi (KN40ux) | Kenwood TM-V71 + 7 Eleman UHF Yagi |
-| **TA3DDD** | Selin Kaya | Bursa / Mudanya Sahil (KN40mj) | QYT KT-8900D + Diamond X-50 Omni |
-| **TA4EEE** | Murat Yıldız | İzmir / Spil Dağı Zirve (KM38sn) | Yaesu FT-857D + 6 Eleman VHF Yagi |
-| **TA4FFF** | Ayşe Yurt | İzmir / Yamanlar (KM38rj) | Icom IC-V8000 + 5 Eleman VHF Yagi |
-| **TA3ZZZ / SWL** | Gözlemci İstasyon | Bölgesel Monitör (Tüm Bölgeler) | RTL-SDR Blog V4 + Discone Anten |
+| **TB3FLY** | Abdurrahman Balı | Bursa / Uludağ Üniversitesi (KN40LG) | Yaesu FT4X + DUAL |
+| **TA3ROM** | Ahmet Erginer |  Bursa / Uludağ Üniversitesi (KN40LG) | ** |
+| **TA3CEP** | Mert ** |  Bursa / Uludağ Üniversitesi (KN40LG) | **|
+| **TA3KAG** | Osman Kağan Tura | Bursa / Uludağ Üniversitesi (KN40LG) | ** |
+
 
 ---
 
@@ -80,4 +78,4 @@ Her istasyon gerçekleştirdiği başarılı veya başarısız çağrılar için
 
 ---
 
-Proje dosyasını bu haliyle bir `.md` dosyası olarak bilgisayarınıza kaydetmek için hazır bir **Python scripti** oluşturmamı ister misiniz? Yoksa saha operasyonunda kullanılacak **sesli çağrı kodlarını ve fonetik alfabeyi** içeren bir ek döküman mı ekleyelim?
+
