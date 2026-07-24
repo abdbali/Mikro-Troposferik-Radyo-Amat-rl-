@@ -1,5 +1,6 @@
 # Ionic Blackout: Event Project and Presentation
 ---
+<img width="1024" height="441" alt="image" src="https://github.com/user-attachments/assets/e38c4ed2-8cfd-4954-8836-513d25245289" />
 
 ## 1. Project / Event Identity
 * **Event Name:** Ionic Blackout
