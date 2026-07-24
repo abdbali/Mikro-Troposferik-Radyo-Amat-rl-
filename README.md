@@ -1,5 +1,4 @@
-# Ionic Blackout: Event Project and Presentation Form (EPF)
-
+# Ionic Blackout: Event Project and Presentation
 ---
 
 ## 1. Project / Event Identity
