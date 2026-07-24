@@ -1,81 +1,89 @@
-# Mikro-Troposferik Radyo Amatörlüğü
-> **Tam Güneş Tutulması Esnasında Mikro-Troposferik Kanal Oluşumunun (Tropo Ducting) VHF/UHF Frekanslarında İncelenmesi**
+# Ionic Blackout: Event Project and Presentation Form (EPF)
 
 ---
 
-## Proje Özeti
-Bu proje, tam güneş tutulması anında meydana gelen ani sıcaklık düşüşünün yarattığı **termal inversiyonun (sıcaklık terselmesi)**, VHF (144-146 MHz) ve UHF (430-440 MHz) radyo frekanslarındaki yayılım (propagation) üzerindeki etkilerini incelemeyi amaçlar. 
+## 1. Project / Event Identity
+* **Event Name:** Ionic Blackout
+* **Event Type:** Science, Technology, Amateur Radio, and Art Gathering
+* **Concept:** Examining the instant physical effects of a solar eclipse on the ionosphere layers, integrated with live shortwave (HF) radio listening and a space-themed music performance as a hybrid experience.
 
-Tutulma anında yer seviyesindeki havanın hızla soğuması, üst katmanların ise sıcak kalmasıyla atmosferde geçici bir **radyo dalga kılavuzu (ducting)** oluşması beklenmektedir. Proje kapsamında Bursa, İstanbul ve İzmir gibi normal şartlarda doğrudan telsiz erişimi (Simplex) olmayan bölgeler arasında rölesiz telsiz iletişim testleri gerçekleştirilecektir.
+## 2. Project Summary (Introduction)
+**Ionic Blackout** is an innovative awareness and application event exploring the instant impacts of a solar eclipse on ionization processes in our upper atmosphere (the ionosphere). The project combines scientific data, practical amateur radio tools, and electronic music into a single digital platform to provide participants with an interactive, immersive, and unique learning experience.
 
----
+## 3. Purpose and Objectives
+* **Scientific Awareness:** To convey the changes created by a solar eclipse in the D, E, and F layers of the ionosphere, space weather, and radio wave propagation mechanisms (skip distance) to participants.
+* **Hands-on Experience:** To directly observe real-time data using open-source digital monitoring tools such as WebSDR, PSK Reporter, NOAA SWPC, and SDO.
+* **Interdisciplinary Approach:** To enrich the flow with a live DJ set (Indie Dance) to blend scientific observations with an aesthetic atmosphere.
+* **Digital Command Panel:** To ensure all these processes can be tracked live through a single web interface without requiring external redirections.
 
-## Amaç ve Hedefler
-* **Bilimsel Analiz:** Güneş tutulmalarının yarattığı ani mikro-klimatik değişimlerin telsiz dalgaları üzerindeki bükülme (kırılma) katsayısını ölçümlemek.
-* **Afet Haberleşmesi:** Olası atmosferik anomalilerde veya iyonosferik kesintilerde, VHF/UHF üzerinden alternatif uzak mesafe (DX) Simplex hatları haritalandırmak.
-* **Rölesiz Erişim:** Bursa merkezli olmak üzere minimum 150 km (İstanbul) ve 250 km (İzmir) mesafelerdeki istasyonlarla doğrudan iletişim sağlamak.
+## 4. Target Audience
+* Science, space, and astronomy enthusiasts
+* Radio amateurs and operator enthusiasts
+* University students and academics
+* Fans of tech-based innovative events and alternative art performances
 
----
+## 5. Event Flow Plan (Summary)
+* **20:00 - 20:10 |** Gathering, Networking, and Introduction
+* **20:10 - 20:25 |** Solar Eclipse and Space Weather
+* **20:25 - 20:40 |** Ionosphere and Shortwave (HF) Effects
+* **20:40 - 20:55 |** Live Tracking, HF Listening, and Music Session (Special Session)
+* **20:55 - 21:00 |** Q&A and Closing
 
-## Teknik Donanım Altyapısı
-* **Telsizler:** Minimum 25W–50W çıkış gücüne sahip VHF/UHF Mobil/Araç telsizleri (Yedek olarak 5W-8W el telsizleri).
-* **Antenler:** 
-  * VHF için minimum 5 elemanlı Yagi-Uda yönlü anten.
-  * UHF için minimum 7 elemanlı Yagi-Uda yönlü anten.
-  * İstasyonlar arası genel çağrılar için yüksek kazançlı dikey omni antenler (Diamond X-300 / X-500).
-* **Konnektör ve Kablo:** Maksimum 10 metre uzunluğunda düşük kayıplı LMR-400 veya RG-213 koaksiyel kablolar.
-* **Yazılım:** Dijital zayıf sinyal takibi için **WSJT-X (FT8 / FT4 modları)**.
+## 6. Digital Tools and Infrastructure to be Used
+* **Live HF Receiver:** University of Twente WebSDR integration for real-time frequency listening.
+* **Propagation Map:** Global signal routes via PSK Reporter.
+* **Space Weather Monitor:** NOAA SWPC X-ray flux and SDO solar disk imagery.
+* **Background Stream:** Elif Atabek - Rooftop Indie Dance DJ Set (SoundCloud live integration).
 
----
-
-## Operasyon Zaman Planı
-
-| Faz | Zaman Dilimi | Yapılacak Faaliyet |
-| :--- | :--- | :--- |
-| **Faz 1: Referans** | Tutulmadan 2 saat önce | İstasyon kurulumları, azimut ayarları ve gürültü (noise) seviyesi tespiti. |
-| **Faz 2: Kritik Evre** | Tam Tutulma (Totality) Anı | Sürekli modda Simplex sesli (FM) ve veri (FT8) çağrıları, RSSI kayıtları. |
-| **Faz 3: Normalleşme** | Tutulmadan 1 saat sonra | Atmosferik kanalın (ducting) dağılma süresinin ve sinyal sönümlenmesinin takibi. |
-
----
-
-##  Frekans Planlaması
-
-* **VHF FM (Ses):** 145.500 MHz (Alternatif: 145.525 MHz / 145.550 MHz)
-* **VHF FT8 (Dijital):** 144.174 MHz
-* **UHF FM (Ses):** 433.500 MHz (Alternatif: 433.525 MHz)
+## 7. Expected Outputs and Outcomes
+* Participants comprehending the direct relationship between space weather and radio waves,
+* Enhancing real-time scientific data literacy through digital tools,
+* Realizing an original event model where science and art are blended.
 
 ---
 
-##  Katılımcı Amatör Telsizciler ve İstasyon Listesi
-
-Projede aktif görev alacak operatörlerin, konumlarının ve kullanacakları ana ekipmanların listesi aşağıdadır:
-
-| Çağrı İşareti (Callsign) | Operatör Adı | İstasyon Konumu / Bölgesi | Ana Ekipman & Anten |
-| :--- | :--- | :--- | :--- |
-| **TB3FLY** | Abdurrahman Balı | Bursa / Uludağ Üniversitesi (KN40LG) | Yaesu FT4X + DUAL |
-| **TA3ROM** | Ahmet Erginer |  Bursa / Uludağ Üniversitesi (KN40LG) | ** |
-| **TA3CEP** | Mert Ay |  Bursa / Uludağ Üniversitesi (KN40LG) | **|
-| **TA3KAG** | Osman Kağan Tura | Bursa / Uludağ Üniversitesi (KN40LG) | ** |
-
+# İyonik Karartma: Etkinlik Proje ve Tanıtım Formu 
 
 ---
 
-##  Veri Kayıt Protokolü (Logbook)
-Her istasyon gerçekleştirdiği başarılı veya başarısız çağrılar için aşağıdaki şablona uygun veri tutacaktır:
+## 1. Proje / Etkinlik Kimliği
+* **Etkinlik Adı:** İyonik Karartma
+* **Etkinlik Türü:** Bilim, Teknoloji, Radyo Amatörlüğü ve Sanat Buluşması
+* **Konsept:** Güneş tutulmasının iyonosfer katmanları üzerindeki ani fiziksel etkilerinin incelenmesi, canlı kısa dalga (HF) radyo dinletileri ve müzik performansının entegre edildiği hibrit deneyim.
 
-```text
-[GG/AA/YYYY] [UTC SAAT] | [ALICI CALLSIGN] | [MOD: FM/FT8] | [SİNYAL RAPORU (R-S)] | [ANLIK SICAKLIK (°C)] | [NOTLAR]
-Örnek:
-24/07/2026 11:42 | TA1BBB | FM | 5 by 7 | 18.5°C | Sinyal ani yükseldi, qsb var.
-```
+## 2. Proje Özeti (Giriş)
+**İyonik Karartma**, gökyüzünde gerçekleşen güneş tutulması olayının üst atmosferimizdeki (iyonosfer) iyonizasyon süreçleri üzerindeki anlık etkilerini ele alan yenilikçi bir farkındalık ve uygulama etkinliğidir. Proje; bilimsel verileri, radyo amatörlüğünün pratik araçlarını ve elektronik müziği tek bir dijital platformda birleştirerek katılımcılara interaktif, sürükleyici ve eşsiz bir öğrenme deneyimi sunar.
 
----
+## 3. Amaç ve Hedefler
+* **Bilimsel Farkındalık:** Güneş tutulmasının iyonosferin D, E ve F katmanlarında yarattığı değişimleri, uzay hava durumunu ve radyo dalgalarının yayılım mekanizmalarını (skip mesafesi) katılımcılara aktarmak.
+* **Uygulamalı Deneyim:** WebSDR, PSK Reporter, NOAA SWPC ve SDO gibi açık kaynaklı dijital izleme araçlarını kullanarak anlık verileri doğrudan gözlemlemek.
+* **Disiplinler Arası Yaklaşım:** Bilimsel gözlemleri estetik bir atmosferle buluşturmak amacıyla canlı DJ seti (Indie Dance) eşliğinde akışı zenginleştirmek.
+* **Dijital Komuta Paneli:** Tüm bu süreçlerin harici yönlendirmelere gerek kalmadan tek bir web ara yüzü üzerinden canlı olarak takip edilebilmesini sağlamak.
 
-##  Önemli Uyarılar
-1. Testler kesinlikle **Röle (Repeater) veya Link sistemleri üzerinden yapılmamalıdır**. Tüm iletişim doğrudan (Simplex) olmalıdır.
-2. Acil durum frekansları (Örn: TRAC Afet Frekansları) test amacıyla işgal edilmemelidir.
-3. Dijital modlar kullanılmadan önce bilgisayar saatlerinin **GPS veya İnternet üzerinden tam senkronize** edildiğinden emin olunmalıdır.
+## 4. Hedef Kitle
+* Bilim, uzay ve astronomi meraklıları
+* Radyo amatörleri ve telsiz meraklıları
+* Üniversite öğrencileri ve akademisyenler
+* Teknoloji tabanlı yenilikçi etkinlikleri ve alternatif sanat performanslarını sevenler
 
----
+## 5. Etkinlik Akış Planı (Özet)
+* **20:00 - 20:10 |** Toplanma, Tanışma ve Giriş
+* **20:10 - 20:25 |** Güneş Tutulması ve Uzay Hava Durumu
+* **20:25 - 20:40 |** İyonosfer ve Kısa Dalga (HF) Etkileri
+* **20:40 - 20:55 |** Canlı Takip, HF Dinleme ve Müzik Seansı (Özel Oturum)
+* **20:55 - 21:00 |** Soru-Cevap ve Kapanış
+
+## 6. Kullanılacak Dijital Araçlar ve Altyapı
+* **Canlı HF Alıcısı:** University of Twente WebSDR entegrasyonu ile anlık frekans dinleme.
+* **Yayılım Haritası:** PSK Reporter üzerinden dünya geneli sinyal rotaları.
+* **Uzay Havası Monitörü:** NOAA SWPC X-ray akısı ve SDO güneş disk görselleri.
+* **Arka Plan Akışı:**Elif Atabek - Sunset Indie Dance DJ Set (SoundCloud).
 
 
+
+## 7. Beklenen Çıktılar ve Kazanımlar
+* Katılımcıların uzay havası ile radyo dalgaları arasındaki doğrudan ilişkiyi kavraması,
+* Dijital araçlar aracılığıyla gerçek zamanlı bilimsel veri okuryazarlığının artması,
+* Bilim ve sanatın harmanlandığı özgün bir etkinlik modelinin hayata geçirilmesi.
+
+* 
