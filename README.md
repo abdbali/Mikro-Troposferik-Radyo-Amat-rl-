@@ -2,6 +2,7 @@
 > **Tam Güneş Tutulması Esnasında Mikro-Troposferik Kanal Oluşumunun (Tropo Ducting) VHF/UHF Frekanslarında İncelenmesi**
 
 ---
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/2e6a4c8d-a223-4204-a44a-339451882be0" />
 
 ## Proje Özeti
 Bu proje, tam güneş tutulması anında meydana gelen ani sıcaklık düşüşünün yarattığı **termal inversiyonun (sıcaklık terselmesi)**, VHF (144-146 MHz) ve UHF (430-440 MHz) radyo frekanslarındaki yayılım (propagation) üzerindeki etkilerini incelemeyi amaçlar. 
