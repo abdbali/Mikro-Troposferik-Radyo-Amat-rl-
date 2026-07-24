@@ -55,7 +55,7 @@ Projede aktif görev alacak operatörlerin, konumlarının ve kullanacakları an
 | :--- | :--- | :--- | :--- |
 | **TB3FLY** | Abdurrahman Balı | Bursa / Uludağ Üniversitesi (KN40LG) | Yaesu FT4X + DUAL |
 | **TA3ROM** | Ahmet Erginer |  Bursa / Uludağ Üniversitesi (KN40LG) | ** |
-| **TA3CEP** | Mert ** |  Bursa / Uludağ Üniversitesi (KN40LG) | **|
+| **TA3CEP** | Mert Ay |  Bursa / Uludağ Üniversitesi (KN40LG) | **|
 | **TA3KAG** | Osman Kağan Tura | Bursa / Uludağ Üniversitesi (KN40LG) | ** |
 
 
